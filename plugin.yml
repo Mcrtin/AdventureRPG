@@ -1,0 +1,6 @@
+name: AdventureRPG
+version: 0.0.1
+api-version: 1.13
+main: io.github.riesenpilz.adventureRPG.Main
+depend:
+- NMSUtilities
