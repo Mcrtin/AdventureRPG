@@ -13,7 +13,7 @@ public class World extends ServerWorld {
 
 	public static World getWorld(String name, long seed) {
 		final WorldCreator creator = new WorldCreator(name);
-		creator.generator(new Generator());
+		creator.generator(new Generator(seed, 0));
 		creator.seed(seed);
 		return new World(Bukkit.createWorld(creator));
 	}
